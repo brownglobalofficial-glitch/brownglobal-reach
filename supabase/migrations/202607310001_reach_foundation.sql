@@ -33,3 +33,4 @@ create policy "users add placements to their requests" on public.campaign_reques
 create policy "users view their placements" on public.campaign_request_placements for select to authenticated using (exists(select 1 from public.campaign_requests r where r.id = campaign_request_id and r.created_by = auth.uid()));
 
 comment on table public.campaign_requests is 'Planning requests only. A campaign does not begin until availability, suitability, pricing and a written proposal are approved.';
+

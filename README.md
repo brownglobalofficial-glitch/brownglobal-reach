@@ -2,7 +2,7 @@
 
 BrownGlobal Reach is the direct advertising and sponsorship platform for eligible BrownGlobal, GSN, Wave, and Kaieteur House properties.
 
-Reach begins with reviewed, contextual partnerships—not an open self-serve ad exchange. Every live campaign requires confirmed availability, suitability, pricing, disclosures, and a written proposal.
+Reach begins with reviewed, contextual partnershipsâ€”not an open self-serve ad exchange. Every live campaign requires confirmed availability, suitability, pricing, disclosures, and a written proposal.
 
 ## Local development
 
@@ -12,4 +12,5 @@ Reach begins with reviewed, contextual partnerships—not an open self-serve ad 
 
 The initial campaign-intake database plan is in `supabase/migrations`.
 
-© 2026 BrownGlobal Holdings LLC
+Â© 2026 BrownGlobal Holdings LLC
+
