@@ -1,9 +1,10 @@
+
 .menu-button,
 .mobile-nav-cta {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .topbar {
     padding: 0 18px;
     gap: 12px;
