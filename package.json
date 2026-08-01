@@ -2,9 +2,27 @@
   "name": "brownglobal-reach",
   "private": true,
   "version": "0.1.0",
+  "packageManager": "pnpm@11.9.0",
   "type": "module",
-  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "mobile:add:android": "cap add android",
+    "mobile:add:ios": "cap add ios",
+    "mobile:sync": "pnpm run build && cap sync",
+    "mobile:open:android": "cap open android",
+    "mobile:open:ios": "cap open ios",
+    "mobile:doctor": "cap doctor"
+  },
   "dependencies": {
+    "@capacitor/android": "8.5.0",
+    "@capacitor/app": "8.1.1",
+    "@capacitor/core": "8.5.0",
+    "@capacitor/ios": "8.5.0",
+    "@capacitor/keyboard": "8.0.5",
+    "@capacitor/splash-screen": "8.0.2",
+    "@capacitor/status-bar": "8.0.3",
     "@supabase/supabase-js": "2.110.8",
     "@vitejs/plugin-react": "6.0.2",
     "vite": "8.0.13",
@@ -12,5 +30,9 @@
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
-  "devDependencies": { "@types/react": "19.2.14", "@types/react-dom": "19.2.3" }
+  "devDependencies": {
+    "@capacitor/cli": "8.5.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
 }
