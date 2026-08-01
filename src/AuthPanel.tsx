@@ -65,7 +65,8 @@ export default function AuthPanel({ open, onClose, product }: AuthPanelProps) {
         <button className="auth-submit" disabled={busy}>{busy ? "Please wait..." : mode === "signup" ? "Create free account" : "Sign in"}</button>
       </form>
       {message && <p className="auth-message" role="status">{message}</p>}
-      <div className="auth-business"><b>BrownGlobal Business</b><span>Upgrade later for teams, shared brand tools, expanded workspaces and priority support.</span></div>
+      <div className="auth-business"><b>BrownGlobal Business Â· $14.99 per user/month</b><span>Includes Studio Pro, Flow Pro, Wave Premium, Learn Plus and additional Reach benefits.</span></div>
     </section>
   </div>;
 }
+
